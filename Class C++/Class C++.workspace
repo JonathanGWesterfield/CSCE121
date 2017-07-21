@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Workspace Name="Class C++" Database="">
+  <Project Name="Palindromes" Path="../Palindromes/Palindromes.project" Active="Yes"/>
+  <Project Name="Lab30" Path="../Labs/Lab30/Lab30.project" Active="No"/>
+  <Project Name="NewLab30" Path="NewLab30/NewLab30.project" Active="No"/>
+  <Project Name="TestDebugger" Path="TestDebugger/TestDebugger.project" Active="No"/>
+  <Project Name="Lab49" Path="../Labs/Lab49/Lab49.project"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug" Selected="yes">
+      <Environment/>
+      <Project Name="Palindromes" ConfigName="Debug"/>
+      <Project Name="Lab30" ConfigName="Debug"/>
+      <Project Name="NewLab30" ConfigName="Debug"/>
+      <Project Name="TestDebugger" ConfigName="Debug"/>
+      <Project Name="Lab49" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release" Selected="yes">
+      <Environment/>
+      <Project Name="Palindromes" ConfigName="Release"/>
+      <Project Name="Lab30" ConfigName="Release"/>
+      <Project Name="NewLab30" ConfigName="Release"/>
+      <Project Name="TestDebugger" ConfigName="Release"/>
+      <Project Name="Lab49" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>

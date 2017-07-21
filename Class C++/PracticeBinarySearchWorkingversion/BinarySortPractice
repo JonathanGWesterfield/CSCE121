@@ -1,0 +1,47 @@
+#include <iostream>
+#include <vector>
+#include <algorithm>
+using namespace std;
+
+int main() {
+	vector <int> v;
+	const int SIZE = 10;
+	const int RANGE = 200;
+	int rseed = 5;
+	srand(rseed);
+
+	for (int i = 0; i < SIZE; ++i) {
+		v.push_back(rand() % RANGE);
+	}
+	sort(v.begin(), v.end());
+	for (int i = 0; i < v.size(); ++i) {
+		cout << "[" << i << "]" <<v.at(i) << endl;
+	}
+	int numToFind = 0;
+	cin >> numToFind;
+	cout << "Num to Find: " << numToFind << endl;
+
+	int high = v.size() - 1;
+	int low = 0;
+	int mid = (high - low) / 2;
+
+	while (low <= high) {
+		if (v.at(mid) == numToFind) {
+			break;
+		}
+		else if (v.at(mid) < numToFind) {
+			low = mid + 1;
+			mid = low + (high - low) / 2;
+		}
+		else { //v.at(mid) > numToFind)
+			high = mid - 1;
+			mid = low+ (high - low) / 2;
+		}
+	}
+	if (high < low) {
+		cout << numToFind << " not found" << endl;
+	}
+	else {
+		cout << numToFind << " is at index " << mid << endl;
+	}
+}

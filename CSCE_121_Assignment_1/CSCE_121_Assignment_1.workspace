@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Workspace Name="CSCE_121_Assignment_1" Database="">
+  <Project Name="ZybooksOutputTester" Path="../ZybooksOutputTester/ZybooksOutputTester.project" Active="Yes"/>
+  <Project Name="ClassQuadraticEquation" Path="../ClassQuadraticEquation/ClassQuadraticEquation.project"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug" Selected="yes">
+      <Environment/>
+      <Project Name="ZybooksOutputTester" ConfigName="Debug"/>
+      <Project Name="ClassQuadraticEquation" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release" Selected="yes">
+      <Environment/>
+      <Project Name="ZybooksOutputTester" ConfigName="Release"/>
+      <Project Name="ClassQuadraticEquation" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>
